@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Link to Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://kit.fontawesome.com/d4a720fdc8.js" crossorigin="anonymous"></script>
+    
+    <title>Kate Burnett Portfolio</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img class="logo" src="images/sig.png" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-x" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="row">
+        <div class="column-left">
+          <div class="header-text">
+            <h1>Hi, I'm <span>Kate Burnett</span>.</h1>
+            <h2>Website Developer & Digital Strategist</h2>
+          </div>
+        </div>
+        <div class="column-right">
+          <img class="profile" src="images/profile.png" alt="profile photo" style="float: right; margin-right: 15px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----------------- About ------------------>
+
+  <div id="about">
+    <div class="container">
+          <h1 class="sub-title">About Me</h1>
+          <p class="about-text">I'm Kate, a professional with a background in advocacy, project management, and digital fundraising, with a penchant for technology. My career journey has seen me significantly increase the digital income and list size for a several clients, lead the development of a voter education website, manage websites and social media for campaigns and nonprofits, and establish efficient CRM data systems across various fields. As a digital strategist, my initial exposure to HTML while designing emails marked the beginning of a profound interest in coding and web development. This passion led me to pursue further education, culminating in earning my Professional Certificate in Coding: Full Stack Development with MERN from the Massachusetts Institute of Technology (MIT). Drawing from my extensive experience in project management, community engagement, and digital strategy, combined with my web development training, I am well-equipped to create user-focused, versatile, and visually appealing websites and digital programs to cater to diverse client needs.<br>
+          <br>
+          I live in Boston with my fiance, Ben, and our dog, Buster. When I'm not coding or designing, I love hiking, reading, trying new restaurants, and imagining how I would redesign houses on Zillow.</p>
+    </div>
+  </div>
+
+   <!----------------- Skills ------------------>
+
+  <div id="skills">
+    <div class="container">
+      <h1 class="sub-title">Skills</h1>
+      <div class="skills-container">
+        <img class="skill" src="images/Skills/1.png" alt="JavaScript">
+        <img class="skill" src="images/Skills/3.png" alt="HTML">        
+        <img class="skill" src="images/Skills/2.png" alt="CSS">
+        <!-- <img class="skill" src="images/Skills/4.png" alt="Python"> -->
+        <img class="skill" src="images/Skills/6.png" alt="React">
+        <img class="skill" src="images/Skills/5.png" alt="MongoDB">
+        <img class="skill" src="images/Skills/7.png" alt="Node">
+        <!-- <img class="skill" src="images/Skills/8.png" alt="GraphQL"> -->
+        <img class="skill" src="images/Skills/9.png" alt="Wordpress">
+        <img class="skill" src="images/Skills/12.png" alt="Salesforce">
+        <img class="skill" src="images/Skills/13.png" alt="Mailchimp">
+        <img class="skill" src="images/Skills/14.png" alt="NGP">
+        <img class="skill" src="images/Skills/15.png" alt="ActBlue">
+        <img class="skill" src="images/Skills/16.png" alt="Canva">
+      </div>
+    </div>
+  </div>
+
+  <!----------------- Portfolio ------------------>
+
+  <div id="portfolio">
+      <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/Portfolio/6.png" alt="placeholder">
+              <div class="layer">
+                <h3>Wordpress</h3>
+                <p>Ecommerce website built in Wordpress with Beaver Builder.</p>
+                <a href="https://yew.bjl.mybluehost.me/"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0a4252;"></i></a>
+              </div> 
+            </div>
+            <div class="work">
+              <img src="images/Portfolio/1.png" alt="DouglassDesign.net"> 
+              <div class="layer">
+                <h3>Website Builder</h3>
+                <p>Launched portfolio website for a local construction company. Website built in SquareSpace for admin usability.</p>
+                <a href="https://douglassdesign.net/"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0a4252;"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/Portfolio/4.png" alt="placeholder">
+              <div class="layer">
+                <h3>Full Stack App</h3>
+                <p>React app built with MongoAtlas backend and deployed on Heroku.</p>
+                <a href="https://kate-burnett-banking-app.herokuapp.com/#/"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0a4252;"></i></a>
+              </div> 
+            </div>
+            <div class="work">
+              <img src="images/Portfolio/5.png" alt="placeholder">
+              <div class="layer">
+                <h3>Front-End Design</h3>
+                <p>Portfolio built in HTML and CSS with JaveScript functions for functionality.</p>
+                <a href="https://github.com/KateBurnett/portfolio"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0a4252;"></i></a>
+              </div> 
+            </div>
+            <div class="work">
+              <img src="images/Portfolio/2.png" alt="placeholder">
+              <div class="layer">
+                <h3>Email Strategy</h3>
+                <p>Fundraising email for client written and designed with digital best practices and Canva graphic.</p>
+                <a href="https://us10.campaign-archive.com/?e=__test_email__&u=0227660b1001d121631491d76&id=bd9172765c"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0a4252;"></i></a>
+              </div> 
+            </div>
+            <div class="work">
+              <img src="images/Portfolio/3.png" alt="placeholder">
+              <div class="layer">
+                <h3>Campaign Materials</h3>
+                <p>Election door hanger to highlight candidate issue focus and designed in Canva.</p>
+                <a href="images/Portfolio/Documents/Muted_BFO Door Hanger.pdf"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0a4252;"></i></a>
+              </div> 
+            </div>
+          </div>
+      </div>
+  </div>
+
+  <!----------------- Contact ------------------>
+
+  <div id="contact">
+      <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="subtitle">Contact Me</h1>
+              <p><i class="fa-regular fa-paper-plane" style="color: #ffffff;"></i><a href = "mailto: catherineburnett18@gmail.com">catherineburnett18@gmail.com</a></p>
+              <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>617-335-6170</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/katie-burnett-ma/"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                <a href="https://github.com/KateBurnett"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+              </div>
+              <br>
+              <a href="images/Kate Burnett_Resume.pdf" download class="btn">Download Resume</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+              </form>
+            </div>
+          </div>
+      </div>
+  </div>
+  
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz7PD9TYdIM00B3h7zhQSMQkRCmtROh6BbEshxOUcVkwTEmp2Nc1vA5KbbP26bdCMO5/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
